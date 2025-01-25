@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <nav class="navbar"">
+        <ul>
+            <li><a href="index.html">Search</a></li>
+            <li><a href="advance.html">Advance Search</a></li>
+            <li><a href="image.html">Image Search</a></li>
+            <li class="google_logo"><a href="https://www.google.com/"><img src="Google_2015_logo.svg.webp" alt="google_logo"></a></li>
+        </ul>
+    </nav>
+    <div class="search_advance" >
+        <form class="advancedform" action="https://www.google.com/search" target="_blank">
+            <div>
+                <label for="thesewords">All these words:</label>
+                <br>
+                <input type="text" name="as_q" placeholder="Type anything..." id="thesewords">
+            </div>
+            <div>
+                <label for="exactwordsphrase">This exact word or phrase:</label>
+                <br>
+                <input type="text" name="as_epq" placeholder="Type anything..." id="exactwordsphrase">
+            </div>
+            <div>
+                <label for="anywords">Any of these words:</label>
+                <br>
+                <input type="text" name="as_oq" placeholder="Type anything..." id="anywords">
+            </div>
+            <div>
+                <label for="nonewords">None of these words:</label>
+                <br>
+                <input type="text" name="as_eq" placeholder="Type anything..." id="nonewords">
+            </div>
+            <input type="submit" value="Advance Search">
+        </form>
+    </div>
+
+    </body>
+</html>

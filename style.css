@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #222;
+}
+
+li img {
+    float: right;
+    height: 25px;
+    width: auto;
+}
+
+.google_logo {
+    float: right;
+}
+
+.google_logo:hover {
+    background-color: #333;
+}
+
+.search_box {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px;
+    margin-left: 0;
+    font-size: 15px;
+}
+
+.originalform {
+    display: grid;
+    place-items: center;
+}
+
+input[type="text"] {
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+input[type="submit"] {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(107, 255, 206);
+}
+
+input[type="submit"]:active {
+    background-color: rgba(78, 204, 162, 0.842);
+}
+
+.google {
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submitindex input[type="submit"] {
+    width: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search_advance input[type="submit"] {
+    background-color: #8ab4f8;
+    color: white;
+    font-weight: bold;
+}
+
+.search_advance {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_advance input[type="submit"]:hover {
+    background-color: #5885cc;
+}
+
+.search_advance input[type="submit"]:active {
+    background-color: #45679e;
+}
